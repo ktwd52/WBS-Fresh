@@ -1,9 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
     display: flex;
     justify-content: ;
@@ -48,4 +42,49 @@ body {
     width: 30%; 
     display: flex;
     justify-content: left;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Why WBSFresh Section */
+
+.icons-section {
+  max-width: auto;
+  margin-inline: auto;
+  background-color: #f8f8f8;
+  padding: 3rem;
+}
+
+section.icons-section > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+div.icon-box > img {
+  margin: 2rem 0rem;
+}
+
+.icon-box {
+  justify-content: center;
+  text-align: center;
+}
+.icon-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.icon-description {
+  max-width: 25ch;
 }
