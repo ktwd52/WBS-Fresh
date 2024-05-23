@@ -1,53 +1,51 @@
 .navbar {
-    font-size: 14px;
-    display: flex;
-    justify-content: flex-start;
-    background-color: white; 
-    padding: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 10px;
 }
 
 .logo {
-
-margin: 14px;
+  margin: 14px;
 }
 
 .navbar a {
-    color: #333333; 
-    text-decoration: none;
-    padding: 14px 20px;
-    margin: 0 10px;
-    transition: background-color 0.3s ease;
+  color: #333333;
+  text-decoration: none;
+  padding: 14px 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
 }
 
 .navbar a:hover {
-    background-color: #dbf7df;
+  background-color: #dbf7df;
 }
 
 .background {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFEDD9; 
-    height: 300px; 
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffedd9;
+  height: 300px;
+  padding: 20px;
 }
 
 .left-box {
-    background-color: white;
-    padding: 20px;
-    width: 30%; 
-    text-align: center;
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
 }
 
 .right-image img {
-    max-height: 100px;
-   
+  max-height: 100px;
 }
 
 .right-image {
-    width: 30%; 
-    display: flex;
-    justify-content: left;
+  width: 30%;
+  display: flex;
+  justify-content: left;
 }
 
 * {
@@ -58,21 +56,27 @@ margin: 14px;
 body {
   font-family: "Poppins", sans-serif;
 }
-/* Why WBSFresh Section */
+/* Why WBSFresh Section / Erika */
 
-.icons-section {
+.bg-lightgrey {
+  background-color: #f8f8f8;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+.e-section {
   max-width: auto;
   margin-inline: auto;
-  background-color: #f8f8f8;
   padding: 3rem;
 }
 
-section.icons-section > h2 {
+section.e-section > h2 {
   text-align: center;
   font-size: 2rem;
 }
 
-.icon-container {
+.flex-container {
   display: flex;
   justify-content: space-evenly;
   padding: 3rem;
@@ -93,4 +97,100 @@ div.icon-box > img {
 }
 .icon-description {
   max-width: 25ch;
+}
+
+/* Cards Style / Erika */
+
+.card-desc {
+  text-align: center;
+}
+
+.card-box {
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+}
+
+.card-box > img {
+  height: 315px;
+  width: 262px;
+}
+.card-title {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-tag {
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+
+.tag-color-1 {
+  background-color: #476b2d;
+}
+
+.tag-color-2 {
+  background-color: #37938a;
+}
+
+.tag-color-3 {
+  background-color: #ffcf70;
+}
+
+.tag-color-4 {
+  background-color: #ad88c6;
+}
+.card-bg-1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 45%, black),
+    url("img/meat-veggies.jpg");
+  background-size: cover;
+  height: 320px;
+  width: 262px;
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+}
+
+.card-bg-2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 45%, black),
+    url("img/Veggie.jpg");
+  background-size: cover;
+  height: 320px;
+  width: 262px;
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+}
+
+.card-bg-3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 45%, black),
+    url("img/family-friendly.jpg");
+  background-size: cover;
+  height: 320px;
+  width: 262px;
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+}
+
+.card-bg-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 45%, black),
+    url("img/fit-wholesome.jpg");
+  background-size: cover;
+  height: 320px;
+  width: 262px;
+  display: flex;
+  align-items: end;
+  padding: 1rem;
 }
