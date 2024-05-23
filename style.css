@@ -1,5 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: ;
+    background-color: white; 
+    padding: 10px;
+}
+
+.navbar a {
+    color: #333333; 
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFEDD9; 
+    height: 300px; 
+    padding: 20px;
+}
+
+.left-box {
+    background-color: white;
+    padding: 20px;
+    width: 30%; 
+    text-align: center;
+}
+
+.right-image img {
+    max-height: 100px;
+   
+}
+
+.right-image {
+    width: 30%; 
+    display: flex;
+    justify-content: left;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Why WBSFresh Section */
+
+.icons-section {
+  max-width: auto;
+  margin-inline: auto;
+  background-color: #f8f8f8;
+  padding: 3rem;
+}
+
+section.icons-section > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+div.icon-box > img {
+  margin: 2rem 0rem;
+}
+
+.icon-box {
+  justify-content: center;
+  text-align: center;
+}
+.icon-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.icon-description {
+  max-width: 25ch;
+}
