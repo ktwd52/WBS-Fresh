@@ -1,0 +1,11 @@
+commit 38091679eaef84c00465ed06603c43904c0132b4
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Thu May 23 11:41:07 2024 +0200
+
+    Added contact.htm and linked to index.html
+
+commit a15e1938f903fa5dc99a9756bac8591d74c8f047
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Thu May 23 10:56:12 2024 +0200
+
+    first commit
