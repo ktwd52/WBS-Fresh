@@ -1,8 +1,14 @@
 .navbar {
+    font-size: 14px;
     display: flex;
-    justify-content: ;
+    justify-content: flex-start;
     background-color: white; 
     padding: 10px;
+}
+
+.logo {
+
+margin: 14px;
 }
 
 .navbar a {
@@ -14,7 +20,7 @@
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    background-color: #dbf7df;
 }
 
 .background {
