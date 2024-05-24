@@ -284,16 +284,45 @@ button {
 button:hover {
   background-color: #056b2f;
 }
+
+/* FAQ Style - ktwd52 */
+
+.arrow__list {
+  display: flex;
+  flex-direction:row;
+  list-style-type: none;
+  padding-top: .5rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+  text-decoration: none;
+}
+
+.arrow__list a:hover {
+  color: blue;
+  text-decoration:underline;
+}
+.arrow__list a {
+  padding-left: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content:space-evenly;
+  line-height: 1.5;
+  text-decoration: none;
+  color: black;
+}
+
+
 /* Footer Style - ktwd52 */
 
 footer ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  list-style: none;
+  justify-content:space-evenly;
+  list-style: none; 
   height: 5 vh;
-
+  padding-top: 3rem;
+  
   /* @media screen  */
 }
 footer a {
