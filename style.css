@@ -207,3 +207,38 @@ div.icon-box > img {
   align-items: end;
   padding: 1rem;
 }
+
+.bg-lightgreen {
+  display: flex;
+  background-color: #d2f997;
+  margin: 0rem 6rem;
+  justify-content: space-between;
+  background-image: url(img/HFMarket_Slider.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.text-banner {
+  width: 40%;
+}
+
+button {
+  background-color: #067a36;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #056b2f;
+}
