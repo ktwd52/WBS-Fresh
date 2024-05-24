@@ -2,9 +2,10 @@
 .navbar {
   font-size: 14px;
   display: flex;
+  position: fixed;
   justify-content: flex-start;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .logo {
@@ -288,6 +289,18 @@ button {
 
 button:hover {
   background-color: #056b2f;
+}
+/* Contact */
+.button-link {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* FAQ Style - ktwd52 */
