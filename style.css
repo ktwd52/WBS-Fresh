@@ -61,20 +61,17 @@
   border-radius: 8px;
 }
 
-
 #whatsinthebox {
   background-color: white;
   padding: 40px 20px;
   display: flex;
   justify-content: space-evenly;
-
 }
 
 #whatsinthebox .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 #whatsinthebox .image {
@@ -87,7 +84,6 @@
 
 #whatsinthebox .image img {
   max-width: 550px;
-  
 }
 
 #whatsinthebox .content {
@@ -97,13 +93,9 @@
 
 #whatsinthebox .content h2 {
   font-size: 28px;
-
-  
-
 }
 
 #whatsinthebox .content ul {
-  
   padding: 50px;
 }
 
@@ -111,13 +103,6 @@
   font-size: 18px;
   margin-bottom: 10px;
 }
-
-
-
-
-
-
-
 
 * {
   padding: 0;
@@ -331,7 +316,7 @@ button:hover {
 
 footer ul {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   justify-content:space-evenly;
   list-style: none; 
@@ -346,17 +331,46 @@ footer a {
 }
 footer a:hover {
   color: blue;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 small {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding-top: 2rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 small:hover {
   /* text-shadow:#333333 4rem; */
-    visibility: hidden;
+  visibility: hidden;
+}
+
+/* Contact formular */
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-container {
+  padding: 3rem;
+  border-radius: 5px;
+  background-color: #d2f997;
+  padding: 20px;
+  margin: 2rem 25%;
+}
+
+section.e-section > h1 {
+  font-size: 3rem;
+  text-align: center;
 }
