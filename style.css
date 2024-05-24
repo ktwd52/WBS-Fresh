@@ -22,7 +22,7 @@
 .navbar a:hover {
   background-color: #dbf7df;
 }
-.content {
+.photoandmessage {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,14 +31,14 @@
   height: 300px; 
 }
 
-.content .left {
+.photoandmessage .left {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content .right {
+.photoandmessage .right {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@
   ;
 }
 
-.content .left input {
+.photoandmessage .left input {
   font-size: 16px;
   padding: 10px;
   width: 70%; 
@@ -57,11 +57,66 @@
   
 }
 
-.content .right img {
+.photoandmessage .right img {
   max-width: 300px;
   height: auto;
   border-radius: 8px; 
 }
+
+#whatsinthebox {
+  background-color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#whatsinthebox .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#whatsinthebox .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+#whatsinthebox .image img {
+  max-width: 550px;
+  
+}
+
+#whatsinthebox .content {
+  flex: 1;
+  padding: 20px;
+}
+
+#whatsinthebox .content h2 {
+  font-size: 28px;
+
+  
+
+}
+
+#whatsinthebox .content ul {
+  
+  padding: 50px;
+}
+
+#whatsinthebox .content ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 * {
