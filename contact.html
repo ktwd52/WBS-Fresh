@@ -1,13 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Contact</title>
-</head>
-<body>
-    <header></header>
-    <section><form action=""></form></section>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="img/logo-wbsfresh.png"
+          alt="logoo"
+          height="40px"
+        />
+        <a href="index.html">Home</a>
+        <a href="index.html/#whyWBSFresh">Why WBSFreshß</a>
+        <a href="index.html/#ourmenus">Our Menus</a>
+        <a href="index.html/#box">Our boxes</a>
+        <a href="index.html/#questions">More Questions</a>
+        <a href="#hellofreshforteams">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="e-section bg-lightgrey">
+        <h1>Contact us</h1>
+        <div class="form-container">
+          <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="email" class="c_label">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              class="c_input"
+            /><br /><br />
+
+            <label for="menu">Favorite menu category</label>
+            <select id="menu" name="menu">
+              <option value="meat-veggies">Meat & vegies</option>
+              <option value="vegies">Veggies</option>
+              <option value="familiy">Family Friendly</option>
+              <option value="fit">Fit & Wholesome</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <div class="flex-container">
+              <button class="offer-banner">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Start Footer Section / ktwd52  -->
+    <footer>
+      <ul>
+        <li class="footer__menu"><a href="#GTC">Terms and Conditions</a></li>
+        <li class="footer__menu"><a href="#GDPR">Data Protection</a></li>
+        <li class="footer__menu"><a href="#impressum">Impressum</a></li>
+      </ul>
+      <small class="footer__copyright"> &copy; WBS-Fresh Team - 2024 </small>
+    </footer>
+    <!-- End Footer Section / ktwd52  -->
+  </body>
 </html>
