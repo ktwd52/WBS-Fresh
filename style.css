@@ -265,7 +265,6 @@ div.icon-box > img {
   align-items: end;
   padding: 1rem;
 }
-
 .bg-lightgreen {
   display: flex;
   background-color: #d2f997;
@@ -299,4 +298,30 @@ button {
 
 button:hover {
   background-color: #056b2f;
+}
+/* Footer Style - ktwd52 */
+
+  footer ul {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-evenly;
+  list-style: none;
+  height: 5 vh;  
+  
+  /* @media screen  */
+}
+small {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-evenly;
+  padding-top: 2rem;
+  padding-top: 2rem;
+  font-size: .75rem;
+}
+small:hover {
+  text-shadow:#333333 4rem;
+  font-size: 20px;
+  font-weight: bold;
 }
