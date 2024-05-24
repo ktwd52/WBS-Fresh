@@ -1,3 +1,4 @@
+/* Navbar-Photo-Message / Berkan */
 .navbar {
   font-size: 14px;
   display: flex;
@@ -21,32 +22,47 @@
 .navbar a:hover {
   background-color: #dbf7df;
 }
-
-.background {
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffedd9;
-  height: 300px;
+  background-color: #D2F997; 
   padding: 20px;
+  height: 300px; 
 }
 
-.left-box {
-  background-color: white;
-  padding: 20px;
-  width: 30%;
-  text-align: center;
-}
-
-.right-image img {
-  max-height: 100px;
-}
-
-.right-image {
-  width: 30%;
+.content .left {
+  flex: 1;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
 }
+
+.content .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+}
+
+.content .left input {
+  font-size: 16px;
+  padding: 10px;
+  width: 70%; 
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: bold; 
+  
+}
+
+.content .right img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px; 
+}
+
 
 * {
   padding: 0;
