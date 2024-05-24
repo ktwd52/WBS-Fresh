@@ -1,3 +1,4 @@
+/* Navbar-Photo-Message / Berkan */
 .navbar {
   font-size: 14px;
   display: flex;
@@ -21,32 +22,102 @@
 .navbar a:hover {
   background-color: #dbf7df;
 }
-
-.background {
+.photoandmessage {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffedd9;
+  background-color: #d2f997;
+  padding: 20px;
   height: 300px;
-  padding: 20px;
 }
 
-.left-box {
-  background-color: white;
-  padding: 20px;
-  width: 30%;
-  text-align: center;
-}
-
-.right-image img {
-  max-height: 100px;
-}
-
-.right-image {
-  width: 30%;
+.photoandmessage .left {
+  flex: 1;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
 }
+
+.photoandmessage .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoandmessage .left input {
+  font-size: 16px;
+  padding: 10px;
+  width: 70%;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.photoandmessage .right img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+#whatsinthebox {
+  background-color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#whatsinthebox .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#whatsinthebox .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+#whatsinthebox .image img {
+  max-width: 550px;
+  
+}
+
+#whatsinthebox .content {
+  flex: 1;
+  padding: 20px;
+}
+
+#whatsinthebox .content h2 {
+  font-size: 28px;
+
+  
+
+}
+
+#whatsinthebox .content ul {
+  
+  padding: 50px;
+}
+
+#whatsinthebox .content ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 
 * {
   padding: 0;
@@ -194,7 +265,40 @@ div.icon-box > img {
   align-items: end;
   padding: 1rem;
 }
+.bg-lightgreen {
+  display: flex;
+  background-color: #d2f997;
+  margin: 0rem 6rem;
+  justify-content: space-between;
+  background-image: url(img/HFMarket_Slider.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
 
+.text-banner {
+  width: 40%;
+}
+
+button {
+  background-color: #067a36;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #056b2f;
+}
 /* Footer Style - ktwd52 */
 
   footer ul {
