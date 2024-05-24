@@ -74,15 +74,13 @@
   align-items: center;
 }
 
-#whatsinthebox .image {
+
+#whatsinthebox .image img {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
-}
-
-#whatsinthebox .image img {
+  height: 350px;
   max-width: 550px;
 }
 
@@ -93,15 +91,23 @@
 
 #whatsinthebox .content h2 {
   font-size: 28px;
+  padding: 40px;
+  margin-top: 0px;
 }
 
 #whatsinthebox .content ul {
-  padding: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  
 }
 
 #whatsinthebox .content ul li {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 15px 40px;
+
+  
+  
 }
 
 #innovative-text {
