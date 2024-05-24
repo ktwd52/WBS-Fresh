@@ -287,6 +287,11 @@ button:hover {
 
 /* FAQ Style - ktwd52 */
 
+@media screen and (max-width: 719px) {
+  body {
+    font-size: clamp(10px, 3vw, 16px);
+  }
+}
 .arrow__list {
   display: flex;
   flex-direction:row;
@@ -309,8 +314,8 @@ button:hover {
   line-height: 1.5;
   text-decoration: none;
   color: black;
-}
 
+}
 
 /* Footer Style - ktwd52 */
 
